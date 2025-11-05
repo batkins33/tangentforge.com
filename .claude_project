@@ -1,0 +1,43 @@
+# Tangent Forge Website Project
+
+## Overview
+A modern, readable website for Tangent Forge - turning creative tangents into shippable products. Built for freelance writers and creators.
+
+## Tech Stack
+- Static HTML/CSS/JS
+- Netlify hosting & forms
+- Inter font, CSS custom properties
+- Mobile-first responsive design
+
+## Key Files
+- `tangentforge-site/index.html` - Main page
+- `tangentforge-site/style.css` - All styling
+- `tangentforge-site/tokens.css` - Design system variables
+- `tangentforge-site/script.js` - Interactive features
+- `netlify.toml` - Deployment config
+- `dev_files/` - Enhanced version with documentation
+
+## Current Status
+- ✅ Deployed to Netlify
+- ✅ Connected to GitHub auto-deploy
+- ✅ Email form working
+- ⏳ Need Gumroad product link
+- ⏳ Need to create actual 30-prompt pack
+
+## Design Principles
+- Maximum readability (17px base font, high contrast)
+- Clean, professional appearance
+- Fast loading (<20KB total)
+- Mobile-first responsive
+
+## Next Tasks
+1. Create Gumroad product
+2. Replace placeholder link in index.html line 99
+3. Generate 30 writing prompts for freelancers
+4. Test social sharing with og-banner-dark.png
+
+## Deployment
+- Auto-deploys from GitHub main branch
+- Publish directory: `tangentforge-site`
+- Forms handled by Netlify
+- Domain: tangentforge.com (configured)
