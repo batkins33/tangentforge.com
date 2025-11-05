@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>404 — Page Not Found | Tangent Forge</title>
+  <meta name="description" content="This page doesn't exist. Maybe it was a tangent too far?" />
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+  <link rel="icon" href="/assets/favicon.ico">
+  
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/tokens.css" />
+  <link rel="stylesheet" href="/style.css" />
+  
+  <style>
+    .error-container {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 24px;
+    }
+    .error-code {
+      font-size: 120px;
+      font-weight: 800;
+      line-height: 1;
+      margin: 0;
+      color: var(--tf-pulse);
+      opacity: 0.3;
+    }
+    .error-title {
+      font-size: 32px;
+      font-weight: 800;
+      margin: 16px 0 12px;
+      color: var(--tf-text);
+    }
+    .error-message {
+      font-size: 18px;
+      color: var(--tf-text-dim);
+      max-width: 500px;
+      margin: 0 auto 32px;
+    }
+    .error-links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    @media (max-width: 600px) {
+      .error-code { font-size: 80px; }
+      .error-title { font-size: 24px; }
+      .error-message { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="/assets/tf-mark-dark.svg" alt="TF logo" class="logo" />
+        <a href="/" style="text-decoration: none; color: inherit;">
+          <span class="brand-name">Tangent Forge</span>
+        </a>
+      </div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/#products">Products</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="error-container">
+    <div class="error-code">404</div>
+    <h1 class="error-title">This tangent led nowhere</h1>
+    <p class="error-message">
+      The page you're looking for doesn't exist. Maybe it was a detour too far, 
+      or it never shipped in the first place.
+    </p>
+    <div class="error-links">
+      <a class="btn primary" href="/">Back to Home</a>
+      <a class="btn ghost" href="/#products">See Products</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year"></span> Tangent Forge</span>
+      <div class="small">Built on Netlify • v1.0</div>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>

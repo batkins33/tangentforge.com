@@ -1,0 +1,11 @@
+# Tangent Forge robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update domain after deploying)
+Sitemap: https://tangentforge.com/sitemap.xml
+
+# Optional: Block common bot paths if needed
+# Disallow: /admin/
+# Disallow: /private/
