@@ -1,0 +1,21 @@
+/* Tangent Forge design tokens (CSS variables) */
+:root {
+  --tf-ink: #0B0D17;       /* bg */
+  --tf-steel: #101428;     /* cards */
+  --tf-mist: #CFD3FF;      /* accents */
+  --tf-pulse: #5B7CFF;     /* primary */
+  --tf-glow: #7AA2FF;      /* primary gradient top */
+  --tf-text: #E7EAFF;
+  --tf-text-dim: #8B90AD;
+  --tf-border: rgba(255,255,255,0.08);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --tf-ink: #F7F9FF;     /* paper */
+    --tf-steel: #ffffff;   /* cards */
+    --tf-text: #1B2238;
+    --tf-text-dim: #3C4568;
+    --tf-pulse: #4C6BFF;
+  }
+}

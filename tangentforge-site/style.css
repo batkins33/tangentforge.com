@@ -1,0 +1,28 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;color:#0f1220;background:#0b0d17}
+.container{max-width:1040px;margin:0 auto;padding:24px}
+.site-header{position:sticky;top:0;background:rgba(11,13,23,.75);backdrop-filter:saturate(160%) blur(8px);border-bottom:1px solid rgba(255,255,255,.08)}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:10px;align-items:center}
+.brand .logo{width:28px;height:28px}
+.brand .brand-name{font-weight:800;letter-spacing:.4px}
+nav a{color:#cfd3ff;text-decoration:none;margin-left:16px;font-weight:600;opacity:.9}
+nav a:hover{opacity:1}
+.hero{padding:80px 24px 48px}
+.hero h1{font-size:44px;line-height:1.1;margin:0 0 12px}
+.hero .tagline{font-size:18px;color:#cdd0e5;max-width:680px}
+.cta-row{display:flex;gap:12px;margin-top:16px}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700;border:1px solid rgba(255,255,255,.16)}
+.btn.primary{background:#5b7cff;border-color:#5b7cff;color:white}
+.btn.ghost{color:#cfd3ff}
+.grid.two{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:start}
+.card{background:#101428;border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:16px}
+.card.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card h3{margin-top:4px}
+.links li{margin-bottom:6px}
+.subscribe-form{display:flex;gap:10px;max-width:520px}
+.subscribe-form input{flex:1;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,.14);background:#0d1122;color:#e7eaff}
+.subscribe-form button{padding:12px 16px;border-radius:10px;border:1px solid #5b7cff;background:#5b7cff;color:white;font-weight:700}
+.site-footer{border-top:1px solid rgba(255,255,255,.08);margin-top:40px}
+.site-footer .container{display:flex;justify-content:space-between;align-items:center;color:#8b90ad}
+.small{font-size:12px;color:#6f7496}
+@media (max-width:800px){.grid.two,.card.row{grid-template-columns:1fr}.hero h1{font-size:34px}}
